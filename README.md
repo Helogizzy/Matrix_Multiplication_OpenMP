@@ -12,7 +12,16 @@ Supercomputador Santos Dumont (SDumont) por meio de VPN.
 SDumont está localizado na sede do Laboratório Nacional de Computação Científica (LNCC), em Petrópolis - Rio de Janeiro - Brasil.
 
 ## Código-fonte sequencial e paralelo
-O código está submetido em sua versão paralela, para deixar sequencial será necessário comentar as linhas: **22** e **24**.
+O código está submetido em sua versão paralela, para deixar sequencial será necessário comentar as linhas: 
+
+22 
+```
+omp_set_num_threads(2);
+```
+24
+```
+#pragma omp parallel for private(aux,j,k) firstprivate(l,c) shared(i)
+```
 
 ## Compilação e execução - SDumont
 Em andamento...
