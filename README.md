@@ -17,7 +17,7 @@ Para a realização dos testes utilizamos a versão 9.3 do gcc (compilador C) e 
 Os resultados são apresentados em segundos por meio da função omp_get_wtime.
 
 ## Análise de desempenho
-#### ⚠️ Uma  mais profunda pode ser observada através do documento que se encontra nesse repositório!
+#### ⚠️ Uma análise mais profunda pode ser observada através do documento que se encontra nesse repositório!
 
 
 
