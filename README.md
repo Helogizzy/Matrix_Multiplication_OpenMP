@@ -17,9 +17,22 @@ Para a realização dos testes utilizamos a versão 9.3 do gcc (compilador C) e 
 Os resultados são apresentados em segundos por meio da função omp_get_wtime.
 
 ## Análise de desempenho
-#### ⚠️ Uma análise mais profunda pode ser observada através do documento que se encontra nesse repositório!
+Ao observar os resultados do speedup, notamos que as matrizes com dimensões de 8000x8000 e 4000x4000 se saíram melhor, com ênfase na de 8000x8000 que teve um speedup bem siginificativo a partir do uso de 8 threads como demonstra o gráfico de speedup.
 
 
+![speedup](./folder/speedup.png)
+
+
+Agora, analisando os resultados da eficiência temos o mesmo resultado, matrizes de dimensões 4000x4000 e 8000x8000 se sobresaíram novamente. Porém, em destaque para a matriz de 8000x8000 utilizando 16 e 24 threads observado no gráfico de eficiência.
+
+
+![eficiencia](./folder/eficiencia.png)
+
+
+## Conclusões
+> #### ⚠️ Uma análise mais profunda pode ser observada através do documento que se encontra nesse repositório!
+
+Nosso estudo aponta que a aplicação não é escalável pois não tem a capacidade de manter a eficiência conforme o número de processos aumenta, indo contra as leis de escalabilidade de Amdahl e Gustafson.
 
 ## Referências
 
