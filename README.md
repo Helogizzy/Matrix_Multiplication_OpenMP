@@ -30,7 +30,7 @@ Agora, analisando os resultados da eficiência temos o mesmo resultado, matrizes
 
 
 ## Conclusões
-> #### ⚠️ Uma análise mais profunda pode ser observada através do documento que se encontra nesse repositório!
+> #### Uma análise mais profunda pode ser observada através do documento que se encontra nesse repositório.
 
 Nosso estudo aponta que a aplicação não é escalável pois não tem a capacidade de manter a eficiência conforme o número de processos aumenta, indo contra as leis de escalabilidade de Amdahl e Gustafson.
 
