@@ -1,4 +1,5 @@
 # Multiplicação de Matrizes - OpenMP
+## Trabalho de Programação Paralela
 
 >Colaboradoras: Ellen Bonafin ([GitHub Profile](https://github.com/EllenBonafin)) e Heloisa Alves ([Github Profile](https://github.com/Helogizzy))
 
